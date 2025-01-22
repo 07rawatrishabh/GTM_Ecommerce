@@ -36,7 +36,8 @@ let html = `<div class="img-section">
       </select>
       <input type="number" value="1" min="1" data-aos="fade-up" data-aos-duration="1500">
     </div>
-    <button onclick="addToCart(%pd%)" data-aos="fade-up" data-aos-duration="1500">Add To Cart</button>
+     <button onclick="addToCart(%pd%)" data-aos="fade-up" data-aos-duration="1500">Add To Cart</button>
+     <button onclick="addToCart(%pd%)" class="wishList" data-aos="fade-up" data-aos-duration="1500">Add To WishList</button>
     <h2 data-aos="fade-up" data-aos-duration="1500">Product Details</h2>
       <div class="rating" data-aos-duration="1500">
       <span data-aos="fade-up" data-aos-duration="1500">Rating: %rating% </span>
